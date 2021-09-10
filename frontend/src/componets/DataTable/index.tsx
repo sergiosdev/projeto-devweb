@@ -1,6 +1,6 @@
 import Datatable from 'react-bs-datatable';
 
-// Create table headers consisting of 4 columns.
+// Criar header com 6 campos
 const header = [
   { title: '#', prop: 'id', sortable: true },
   { title: 'Nome', prop: 'realname', sortable: true },
@@ -10,8 +10,7 @@ const header = [
   { title: 'Opções', prop: 'options', sortable: true },
 ];
 
-// Randomize data of the table columns.
-// Note that the fields are all using the `prop` field of the headers.
+// Randomize os dados das colunas da tablea
 var count = 0;
 
 const body = Array.from(new Array(57), () => {
@@ -23,8 +22,8 @@ const body = Array.from(new Array(57), () => {
     return {
         
         id: `${count}`,
-        realname: `Billy ${rd}`,
-        login: `Billy-${rd}`,
+        realname: `Maria ${rd}`,
+        login: `Maria-${rd}`,
         active: 'Ativo',
         lastaccess: "09/09/21",
         options:(<>                    
@@ -37,8 +36,8 @@ const body = Array.from(new Array(57), () => {
   
     return {
         id:  `${count}`,
-        realname: `John ${rd}`,
-        login: `John.${rd}`,
+        realname: `João ${rd}`,
+        login: `João.${rd}`,
         active: 'Desativado',
         lastaccess: "09/09/21",
         options:(<>                    

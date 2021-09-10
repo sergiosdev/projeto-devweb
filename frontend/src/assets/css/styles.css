@@ -92,10 +92,23 @@ table {
 }
 
 
-/* Texto Após Icones */
+/* Espaço Após Icones */
 
-.titleIcon {
+.spaceIcon {
     padding-left: 5px;
+}
+
+
+/* Créditos Rodapé */
+
+.creditos {
+    color: #42ff00 !important;
+    text-decoration: none !important;
+}
+
+.creditos:hover {
+    color: #ffe900 !important;
+    font-size: 16px !important;
 }
 
 
@@ -114,6 +127,9 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 3px solid rgb(157, 151, 151);
 }
+
+
+/* Mobile */
 
 @media screen and (max-width: 940px) {
     .table-responsive {

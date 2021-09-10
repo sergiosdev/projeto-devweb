@@ -23,10 +23,10 @@ const NavBar = () => {
       </button>
       <span className="icon-bar"></span>
       <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
-        <a className="nav-link text-info" href="/contact"><FontAwesomeIcon icon={faHome} size ='sm' className="icone"/> <span className="titleIcon"> Home </span> </a>
-        <a className="nav-link text-info" href="/login"> <FontAwesomeIcon icon={faUser} size ='sm' className="icone"/> <span className="titleIcon"> Usuários</span> </a>        
-        <a className="nav-link text-info" href="/login"><FontAwesomeIcon icon={faBook} size ='sm' className="icone"/> <span className="titleIcon"> Sobre </span> </a>        
-        <a className="nav-link text-info" href="/login"><FontAwesomeIcon icon={faTimes} size ='sm' className="icone"/> <span className="titleIcon"> Logout </span></a> 
+        <a className="nav-link text-info" href="/home"><FontAwesomeIcon icon={faHome} size ='sm' className="icone"/> <span className="spaceIcon"> Home </span> </a>
+        <a className="nav-link text-info" href="/users"> <FontAwesomeIcon icon={faUser} size ='sm' className="icone"/> <span className="spaceIcon"> Usuários</span> </a>        
+        <a className="nav-link text-info" href="/#"><FontAwesomeIcon icon={faBook} size ='sm' className="icone"/> <span className="spaceIcon"> Sobre </span> </a>        
+        <a className="nav-link text-info" href="/#"><FontAwesomeIcon icon={faTimes} size ='sm' className="icone"/> <span className="spaceIcon"> Logout </span></a> 
       </div>
      
     </nav>

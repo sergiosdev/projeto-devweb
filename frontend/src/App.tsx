@@ -19,7 +19,6 @@ const App = () => {
          
         <DataTable />
       </div>
-
       
       <Footer />
     </>
